@@ -6,23 +6,19 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #222;
     overflow: hidden;
+  background: linear-gradient(-45deg, 
+    #0061ff, #5c03bc, #e536ab,
+    #e81cff, #f89b29, #0e0725,
+    #0061ff);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
 }
 
-
-.animated-background {
-    background: linear-gradient(
-        to right, #833ab4,
-        #fd1d1d, #fcbe45);
-    background-size: 400% 400%;
-    animation: animate-background 10s infinite ease-in-out;
-}
-
-@keyframes animate-background {
+@keyframes gradient {
     0%{
         background-position: 0 50%;
-    }
+  }
     50%{
         background-position: 100% 50%;
     }
@@ -30,8 +26,6 @@ body {
         background-position: 0 50%;
     }
 }
- 
-
 
 
 .container {
