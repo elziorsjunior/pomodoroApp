@@ -16,14 +16,15 @@ body {
 }
 
 #timerText {
-    font-size: 24px;
+    font-size: 18px;
+    font-weight: 200;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
 #timer {
     font-size: 90px;
     font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     margin-top: 20px;
 }
 
@@ -45,9 +46,11 @@ button {
     padding: 10px 20px;
     font-size: 18px;
     font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 200;
     margin: 5px;
     background-color: #ffffff;
     border: none;
+    border-radius: 100%;
     color: #000000;
     cursor: pointer;
 }
