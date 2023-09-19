@@ -49,8 +49,7 @@ button {
     font-weight: 200;
     margin: 5px;
     background-color: #ffffff;
-    border: none;
-    border-radius: 100%;
+    border-radius: 30px;
     color: #000000;
     cursor: pointer;
 }
