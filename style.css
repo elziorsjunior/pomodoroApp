@@ -7,7 +7,8 @@ body {
     align-items: center;
     height: 100vh;
     overflow: hidden;
-  background: linear-gradient(-45deg, 
+    background: linear-gradient(
+    -45deg, 
     #0061ff, #5c03bc, #e536ab,
     #e81cff, #f89b29, #0e0725,
     #0061ff);
