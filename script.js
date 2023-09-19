@@ -1,6 +1,5 @@
 const timerDisplay = document.getElementById("timer");
 const timerText = document.getElementById("timerText");
-const backgroundVideo = document.getElementById("backgroundVideo");
 const startButton = document.getElementById("startButton");
 const pauseButton = document.getElementById("pauseButton");
 const restartButton = document.getElementById("restartButton");
@@ -28,7 +27,7 @@ function startPomodoro() {
 
     timerText.textContent = "Atenção Plena";
     timerDisplay.textContent = formatTime(timeLeft);
-    backgroundVideo.play();
+    
 
     startButton.style.display = "none";
     pauseButton.style.display = "inline-block";
@@ -67,7 +66,7 @@ function pausePomodoro() {
     isPaused = true;
 
     timerText.textContent = "Volte ao trabalho...";
-    backgroundVideo.pause();
+    
 
     startButton.style.display = "inline-block";
     pauseButton.style.display = "none";
@@ -79,8 +78,8 @@ function resetPomodoro() {
     timerText.textContent = "Pomodoro";
     timeLeft = 1500;
     timerDisplay.textContent = formatTime(timeLeft);
-    backgroundVideo.pause();
-    backgroundVideo.currentTime = 0;
+    
+    
 
     startButton.style.display = "inline-block";
     pauseButton.style.display = "none";
