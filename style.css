@@ -28,15 +28,7 @@ body {
     margin-top: 20px;
 }
 
-video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-}
+
 
 #buttons {
     margin-top: 20px;
@@ -49,7 +41,7 @@ button {
     border-radius: 30px;
     color: #000000;
     cursor: pointer;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .paused {
